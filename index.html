@@ -123,7 +123,7 @@
           <p class="mt-2">Pós-graduando em <strong>Cibersegurança (2025)</strong>. Foco em <strong>Arquiteturas Serverless</strong> e <strong>Segurança Quântica</strong>. Proprietário de <strong>PI</strong> (software operacional) e criador do <span class="code">Linux SIEM Vingador</span>.</p>
           <div class="d-flex flex-wrap gap-3 justify-content-center mt-4">
             <a href="#projetos" class="btn btn-outline-light btn-lg btn-glow">Ver Portfólio</a>
-            <a href="#" class="btn btn-success btn-lg btn-glow" aria-label="Baixar currículo em PDF">Baixar CV (PDF)</a>
+            <button id="btnCV" class="btn btn-success btn-lg btn-glow" type="button" aria-label="Baixar currículo em PDF">Baixar CV (PDF)</button>
           </div>
         </div>
       </div>
@@ -330,7 +330,7 @@
         <div class="row g-4">
           <div class="col-12 col-lg-6 reveal">
             <div class="card card-neo h-100">
-              <img class="card-img-top" src="https://picsum.photos/800/450?random=2" alt="Linux SIEM Vingador (placeholder)" loading="lazy">
+              <img class="card-img-top" src="data:image/svg+xml;utf8,<?xml version='1.0' encoding='UTF-8'?><svg xmlns='http://www.w3.org/2000/svg' width='800' height='450'><defs><linearGradient id='g1' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%2300FF88'/><stop offset='1' stop-color='%2300A3FF'/></linearGradient></defs><rect width='800' height='450' fill='%230B0F14'/><circle cx='120' cy='120' r='90' fill='url(%23g1)' opacity='0.25'/><text x='50' y='380' fill='%23FFC940' font-family='Inter' font-size='22'>Linux SIEM Vingador</text><text x='50' y='410' fill='%23E5E7EB' font-family='Inter' font-size='14'>Wazuh • Elastic • Sigma • Zeek</text><g fill='none' stroke='%2300FF88' opacity='0.5'><rect x='520' y='60' width='220' height='140'/><rect x='560' y='100' width='140' height='60'/></g></svg>" alt="Linux SIEM Vingador (thumb)" loading="lazy">
               <div class="card-body">
                 <h5 class="card-title">Linux SIEM Vingador</h5>
                 <p class="card-text">OS focado em SIEM + correlação; integra Wazuh/Elastic; automações de hunting.</p>
@@ -345,7 +345,7 @@
           </div>
           <div class="col-12 col-lg-6 reveal">
             <div class="card card-neo h-100">
-              <img class="card-img-top" src="https://picsum.photos/800/450?random=3" alt="Oka Worker (placeholder)" loading="lazy">
+              <img class="card-img-top" src="data:image/svg+xml;utf8,<?xml version='1.0' encoding='UTF-8'?><svg xmlns='http://www.w3.org/2000/svg' width='800' height='450'><defs><linearGradient id='g2' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%2300A3FF'/><stop offset='1' stop-color='%2300FF88'/></linearGradient></defs><rect width='800' height='450' fill='%230B0F14'/><rect x='60' y='80' width='280' height='160' fill='url(%23g2)' opacity='0.35'/><text x='50' y='380' fill='%23FFC940' font-family='Inter' font-size='22'>Oka Worker (IA Pipelines)</text><text x='50' y='410' fill='%23E5E7EB' font-family='Inter' font-size='14'>FastAPI • FFmpeg • TTS • Cloud Run</text></svg>" alt="Oka Worker (thumb)" loading="lazy">
               <div class="card-body">
                 <h5 class="card-title">Oka Worker (IA Pipelines)</h5>
                 <p class="card-text">FastAPI + filas + FFmpeg + TTS; escalável em Cloud Run/Lambda.</p>
@@ -360,7 +360,7 @@
           </div>
           <div class="col-12 col-lg-6 reveal">
             <div class="card card-neo h-100">
-              <img class="card-img-top" src="https://picsum.photos/800/450?random=4" alt="Oka Cloud Flaws (placeholder)" loading="lazy">
+              <img class="card-img-top" src="data:image/svg+xml;utf8,<?xml version='1.0' encoding='UTF-8'?><svg xmlns='http://www.w3.org/2000/svg' width='800' height='450'><defs><linearGradient id='g3' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%23FFC940'/><stop offset='1' stop-color='%2300A3FF'/></linearGradient></defs><rect width='800' height='450' fill='%230B0F14'/><g stroke='%2300FF88' opacity='0.45'><line x1='80' y1='120' x2='260' y2='120'/><line x1='80' y1='160' x2='320' y2='160'/><line x1='80' y1='200' x2='290' y2='200'/></g><text x='50' y='380' fill='%23FFC940' font-family='Inter' font-size='22'>Oka Cloud Flaws — Stargate</text><text x='50' y='410' fill='%23E5E7EB' font-family='Inter' font-size='14'>Multi‑cloud posture • Compliance</text></svg>" alt="Oka Cloud Flaws (thumb)" loading="lazy">
               <div class="card-body">
                 <h5 class="card-title">Oka Cloud Flaws — Stargate</h5>
                 <p class="card-text">Scanner de postura multi‑cloud com relatórios executivos e priorização por valor.</p>
@@ -375,7 +375,7 @@
           </div>
           <div class="col-12 col-lg-6 reveal">
             <div class="card card-neo h-100">
-              <img class="card-img-top" src="https://picsum.photos/800/450?random=5" alt="Oka Exchange/Coins (placeholder)" loading="lazy">
+              <img class="card-img-top" src="data:image/svg+xml;utf8,<?xml version='1.0' encoding='UTF-8'?><svg xmlns='http://www.w3.org/2000/svg' width='800' height='450'><defs><linearGradient id='g4' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%2300FF88'/><stop offset='1' stop-color='%23FFC940'/></linearGradient></defs><rect width='800' height='450' fill='%230B0F14'/><circle cx='640' cy='150' r='60' fill='url(%23g4)' opacity='0.55'/><text x='50' y='380' fill='%23FFC940' font-family='Inter' font-size='22'>Oka Exchange • Oka Coin • Shalom</text><text x='50' y='410' fill='%23E5E7EB' font-family='Inter' font-size='14'>PoEW • IPFS • Wallet/Sign</text></svg>" alt="Oka Exchange / Coins (thumb)" loading="lazy">
               <div class="card-body">
                 <h5 class="card-title">Oka Exchange / Oka Coin / Shalom Coin</h5>
                 <p class="card-text">POCs de token/NFT com governança ética (PoEW) e integrações web3.</p>
@@ -467,33 +467,38 @@
         </div>
         <div class="row g-4 align-items-stretch">
           <div class="col-12 col-lg-7 reveal">
-            <form class="card card-neo p-4 needs-validation" novalidate>
+            <form class="card card-neo p-4 needs-validation" novalidate action="https://formsubmit.co/SEU_EMAIL_AQUI" method="POST">
+              <!-- FormSubmit config (troque SEU_EMAIL_AQUI pelo seu e-mail real!) -->
+              <input type="hidden" name="_subject" value="[OKA • Portfólio] Novo contato pelo site">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="#contato-sucesso">
               <div class="row g-3">
                 <div class="col-md-6">
                   <label for="nome" class="form-label">Nome</label>
-                  <input id="nome" type="text" class="form-control" required>
+                  <input id="nome" name="nome" type="text" class="form-control" required>
                   <div class="invalid-feedback">Informe seu nome.</div>
                 </div>
                 <div class="col-md-6">
                   <label for="email" class="form-label">E-mail</label>
-                  <input id="email" type="email" class="form-control" required>
+                  <input id="email" name="email" type="email" class="form-control" required>
                   <div class="invalid-feedback">Informe um e-mail válido.</div>
                 </div>
                 <div class="col-12">
                   <label for="assunto" class="form-label">Assunto</label>
-                  <input id="assunto" type="text" class="form-control" required>
+                  <input id="assunto" name="assunto" type="text" class="form-control" required>
                   <div class="invalid-feedback">Informe o assunto.</div>
                 </div>
                 <div class="col-12">
                   <label for="mensagem" class="form-label">Mensagem</label>
-                  <textarea id="mensagem" class="form-control" rows="5" required></textarea>
+                  <textarea id="mensagem" name="mensagem" class="form-control" rows="5" required></textarea>
                   <div class="invalid-feedback">Escreva sua mensagem.</div>
                 </div>
                 <div class="col-12 d-flex gap-2">
                   <button class="btn btn-success btn-glow" type="submit">Enviar Mensagem</button>
-                  <a class="btn btn-outline-light btn-glow" href="#" aria-label="Agendar reunião">Agendar reunião</a>
+                  <button type="button" class="btn btn-outline-light btn-glow" data-bs-toggle="modal" data-bs-target="#consultoriaModal" aria-label="Agendar consultoria">Contratar Consultoria</button>
                 </div>
-                <small class="text-muted">*Integração real via Formspree/endpoint — placeholder neste demo.</small>
+                <small class="text-muted">*Para ativar o envio, troque <span class="code">SEU_EMAIL_AQUI</span> pelo seu e-mail no atributo <span class="code">action</span> deste formulário (FormSubmit).</small>
               </div>
             </form>
           </div>
@@ -528,13 +533,12 @@
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- jsPDF para gerar o CV -->
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
   <script>
     // Navbar: torna sólida ao rolar
     const nav = document.getElementById('mainNav');
-    const onScrollNav = () => {
-      if (window.scrollY > 24) nav.classList.add('navbar-solid');
-      else nav.classList.remove('navbar-solid');
-    };
+    const onScrollNav = () => { if (window.scrollY > 24) nav.classList.add('navbar-solid'); else nav.classList.remove('navbar-solid'); };
     document.addEventListener('scroll', onScrollNav); onScrollNav();
 
     // Tooltips
@@ -545,11 +549,7 @@
     document.querySelectorAll('a[href^="#"]').forEach(link => {
       link.addEventListener('click', (e) => {
         const href = e.currentTarget.getAttribute('href');
-        if (href.length > 1) {
-          e.preventDefault();
-          document.querySelector(href)?.scrollIntoView({behavior:'smooth', block:'start'});
-          history.pushState(null, '', href);
-        }
+        if (href.length > 1) { e.preventDefault(); document.querySelector(href)?.scrollIntoView({behavior:'smooth', block:'start'}); history.pushState(null, '', href); }
       });
     });
 
@@ -559,66 +559,85 @@
     window.addEventListener('scroll', onScrollTopBtn); onScrollTopBtn();
     backToTop.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
 
-    // Reveal on scroll (IntersectionObserver)
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => { if (entry.isIntersecting) entry.target.classList.add('show'); });
-    }, { threshold: 0.12 });
+    // Reveal on scroll
+    const io = new IntersectionObserver((entries) => { entries.forEach((entry) => { if (entry.isIntersecting) entry.target.classList.add('show'); }); }, { threshold: 0.12 });
     document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
     // Form validation
-    (() => {
-      const form = document.querySelector('.needs-validation');
-      form.addEventListener('submit', (event) => {
-        if (!form.checkValidity()) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-        form.classList.add('was-validated');
-      }, false);
-    })();
+    (() => { const form = document.querySelector('.needs-validation'); form.addEventListener('submit', (event) => { if (!form.checkValidity()) { event.preventDefault(); event.stopPropagation(); } form.classList.add('was-validated'); }, false); })();
 
     // Theme toggle (Light/Dark) via data-bs-theme
     const themeToggle = document.getElementById('themeToggle');
-    const root = document.documentElement;
-    const applyTheme = (t) => {
-      document.documentElement.setAttribute('data-bs-theme', t);
-      localStorage.setItem('theme', t);
-    };
-    const saved = localStorage.getItem('theme');
-    if (saved) applyTheme(saved);
-    themeToggle.addEventListener('click', () => {
-      const current = document.documentElement.getAttribute('data-bs-theme') || 'dark';
-      applyTheme(current === 'dark' ? 'light' : 'dark');
-    });
+    const applyTheme = (t) => { document.documentElement.setAttribute('data-bs-theme', t); localStorage.setItem('theme', t); };
+    const saved = localStorage.getItem('theme'); if (saved) applyTheme(saved);
+    themeToggle.addEventListener('click', () => { const current = document.documentElement.getAttribute('data-bs-theme') || 'dark'; applyTheme(current === 'dark' ? 'light' : 'dark'); });
 
     // Hero background light particles
-    const canvas = document.getElementById('bgfx');
-    const ctx = canvas.getContext('2d');
-    let w, h, particles;
+    const canvas = document.getElementById('bgfx'); const ctx = canvas.getContext('2d'); let w, h, particles;
     function resize(){ w = canvas.width = window.innerWidth; h = canvas.height = document.querySelector('.hero').offsetHeight; }
     window.addEventListener('resize', resize); resize();
-    function init(){
-      particles = Array.from({length: 48}, () => ({
-        x: Math.random()*w,
-        y: Math.random()*h,
-        r: Math.random()*2 + 0.6,
-        vx: (Math.random()-0.5)*0.6,
-        vy: (Math.random()-0.5)*0.6
-      }));
-    }
-    function draw(){
-      ctx.clearRect(0,0,w,h);
-      particles.forEach(p => {
-        p.x += p.vx; p.y += p.vy;
-        if (p.x<0||p.x>w) p.vx*=-1; if (p.y<0||p.y>h) p.vy*=-1;
-        const g = ctx.createRadialGradient(p.x,p.y,0,p.x,p.y,p.r*6);
-        g.addColorStop(0, 'rgba(0,255,136,.45)');
-        g.addColorStop(1, 'rgba(0,163,255,0)');
-        ctx.fillStyle = g; ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2); ctx.fill();
-      });
-      requestAnimationFrame(draw);
-    }
+    function init(){ particles = Array.from({length: 48}, () => ({ x: Math.random()*w, y: Math.random()*h, r: Math.random()*2 + 0.6, vx: (Math.random()-0.5)*0.6, vy: (Math.random()-0.5)*0.6 })); }
+    function draw(){ ctx.clearRect(0,0,w,h); particles.forEach(p => { p.x += p.vx; p.y += p.vy; if (p.x<0||p.x>w) p.vx*=-1; if (p.y<0||p.y>h) p.vy*=-1; const g = ctx.createRadialGradient(p.x,p.y,0,p.x,p.y,p.r*6); g.addColorStop(0, 'rgba(0,255,136,.45)'); g.addColorStop(1, 'rgba(0,163,255,0)'); ctx.fillStyle = g; ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2); ctx.fill(); }); requestAnimationFrame(draw); }
     init(); draw();
+
+    // Gerar PDF do CV elegante
+    const btnCV = document.getElementById('btnCV');
+    btnCV?.addEventListener('click', async () => {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF({ unit: 'pt', format: 'a4' });
+      const W = doc.internal.pageSize.getWidth();
+      // Header
+      const grad = doc.context2d.createLinearGradient(40, 0, W-40, 0);
+      grad.addColorStop(0, '#FFC940'); grad.addColorStop(1, '#00A3FF');
+      doc.setFillColor(11,15,20); doc.rect(0,0,W,120,'F');
+      doc.setTextColor('#E5E7EB'); doc.setFont('helvetica','bold'); doc.setFontSize(22);
+      doc.text('Gustavo Okamoto — AI/ML & Cybersecurity', 40, 60);
+      doc.setFont('helvetica','normal'); doc.setFontSize(11);
+      doc.text('Fundador do Protocolo OKA-SEC Quantum Shield • Agente de IA Inquebrável (CORE)', 40, 85);
+
+      // Seções
+      let y = 150; doc.setTextColor('#0B0F14');
+      const section = (title) => { doc.setDrawColor('#00FF88'); doc.setLineWidth(1); doc.line(40,y, W-40,y); y += 16; doc.setTextColor('#0B0F14'); doc.setFont('helvetica','bold'); doc.setFontSize(14); doc.text(title, 40, y); y += 12; doc.setFont('helvetica','normal'); doc.setTextColor('#111'); };
+
+      // Sobre
+      section('Sobre');
+      const sobre = 'Analista de Cybersecurity e Engenheiro de IA/ML. Pós‑graduando em Cibersegurança (2025), com foco em Arquiteturas Serverless e Segurança Quântica. Proprietário de PI em software operacional e criador do Linux SIEM Vingador. Lidero P&D em IA aplicada, SIEM e DevSecOps com governança ética (PoEW).';
+      const splitSobre = doc.splitTextToSize(sobre, W-80); doc.text(splitSobre, 40, y+8); y += (splitSobre.length*14)+22;
+
+      // Experiência
+      section('Experiência Selecionada');
+      const exp = [
+        'Analista de Cybersecurity & Engenheiro de IA — detecção, resposta, automação; guardrails contra prompt-injection; MTTR -35%.',
+        'Fundador & Arquiteto — Okamoto Security Labs® — dashboards executivos; integrações Cloud (GCP/AWS/Azure).',
+        'Criador — Linux SIEM Vingador — Wazuh/Elastic, Suricata/Zeek, Sigma; hunting com OSQuery/YARA.',
+        'Arquiteturas Serverless — Cloud Run/Functions/Lambda; CI/CD com SAST/DAST; filas resilientes.'
+      ];
+      exp.forEach(t => { const lines = doc.splitTextToSize('• '+t, W-100); doc.text(lines, 50, y+=16); }); y += 16;
+
+      // Tecnologias
+      section('Tecnologias (núcleo)');
+      const tech = 'Python • FastAPI • LangChain • PyTorch • TensorFlow • scikit-learn • Wazuh • Elastic • Sigma • Zeek • OSQuery • YARA • GCP • AWS • Cloud Run • Cloud Functions • Lambda • Next.js • React • TypeScript • Supabase • OpenTelemetry • Prometheus • Grafana • Solidity • Hardhat • IPFS';
+      const linesTech = doc.splitTextToSize(tech, W-80); doc.text(linesTech, 40, y+8); y += (linesTech.length*14)+22;
+
+      // Projetos
+      section('Projetos em Destaque');
+      const projects = [
+        'Linux SIEM Vingador — OS para SIEM e correlação; -28% falsos positivos; coleta forense automatizada.',
+        'Oka Worker — pipelines IA multimídia; 3.2× mais rápido (p95); execução sob demanda.',
+        'Oka Cloud Flaws — scanner multi‑cloud com relatórios executivos e priorização por valor.',
+        'Oka Exchange/Coin — POCs token/NFT com governança ética (PoEW) e integrações web3.'
+      ];
+      projects.forEach(p => { const l = doc.splitTextToSize('• '+p, W-100); doc.text(l, 50, y+=16); }); y += 10;
+
+      // Contato
+      section('Contato');
+      doc.text('E-mail: contato@example.com  •  LinkedIn: /gustavookamoto  •  GitHub: /gustavo89587  •  Marília – SP', 40, y+8);
+
+      doc.save('Gustavo_Okamoto_CV.pdf');
+    });
   </script>
 </body>
 </html>
+
+</html>
+
